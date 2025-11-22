@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 # In[24]:
 
 
-path = r"C:\Users\WSCUBETECH\OneDrive\Desktop\pr\dataset"
+path = r"C:\Users\arpit\OneDrive\Desktop\pr\dataset"
 
 
 # In[25]:
@@ -115,7 +115,7 @@ pr = s.predict(x_test)
 # In[17]:
 
 
-j = cv2.imread(r"C:\Users\WSCUBETECH\OneDrive\Desktop\pr\dataset\smart watch\Image_1.jpg")
+j = cv2.imread(r"img.jpg")
 j = cv2.resize(j,(150,200))
 j1 = j.flatten()
 
